@@ -157,6 +157,10 @@ cd ~/tools/massdns
 make
 cd ~/tools/
 echo "done"
+# install selenium
+echo "installing selenium"
+pip install selenium
+echo "done"
 
 echo "installing asnlookup"
 git clone https://github.com/yassineaboukir/asnlookup.git
